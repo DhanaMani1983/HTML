@@ -1,0 +1,58 @@
+#############################################
+HTML Input Elements
+#############################################
+
+Labels:
+
+Label can be associated with another object using lable for, difference between text and label is if text is associated to a text box
+if you click on text nothing happens where as if label is associated, when label is clicked focus shifts to text box.
+Same effect happens with radio button too.
+
+TextInputs:
+
+If you want to get input from user then you input tag, id attr is the id for the control, name attr for the name of the control used in 
+name value pair, type attr for type like textbox/password etc.
+
+Textbox
+use tag input with type as text
+
+Password 
+use tag input with type as password
+
+TextArea
+Multiple line input 
+
+Hidden
+if you want to store information from server without knowledge of user.
+
+Selecti List
+Dropdowns, combobox<select><option></option></select>, listbox (add multiple to select), radiobutton
+
+Radiobutton: name should be same for grouping
+
+ <input id="sexmale" name="sex" value="male" type="radio"/><label for="sexmale">male</label> 
+<input id="sexfemale" name="sex" value="female" type="radio"/><label for="sexfemale">female</label>
+
+checkboxes
+
+ <input id="sexmale" name="sex" value="male" type="checkbox"/><label for="sexmale">male</label> 
+<input id="sexfemale" name="sex" value="female" type="checkbox"/><label for="sexfemale">female</label>
+
+InputAttributes:
+
+Size attr - width in characters for textbox, display length for select, width in px for other inputs
+Maxlenght - max characters for textbox or password.
+checked - intial setting for checking a check box.
+multiple - convert combo to listbox
+selected - default select of list box
+Rows/columns - used in text area
+disabled - value wont be post back to server
+readonly - cannot edit the readonly element
+
+Input Commands:
+Input type
+Reset - Resets all the values in the form
+Submit - Submit values to the server.
+Button - Will not intiate form submission so data wont be sent to server, used mainly to fire Javascript client side operation
+
+button tag is used to change button text or even add images.

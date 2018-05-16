@@ -1,0 +1,74 @@
+#############################################
+HTML history
+#############################################
+
+HTML - Hyper text markup language
+
+Html page is a document which can be viewed in world wide web using browser
+
+SGML - Standard Generalised Markup Language, used in us military for document creation and sharing
+
+HTTP - Protocol to transfer and share html documents
+
+URI/URL - Uniform/Unique resource Identifier/Locator, use to identify html documents
+          domain name is used to group url's
+
+#############################################
+HTML document
+#############################################
+
+Hmtl document contains text, data, images linked together using HTML, created to view in browser
+
+Document Types:
+
+There are multiple versions of HTML eg HTML1, HTML2 .. HTML5 etc. So if a document is created using particular version
+browser should be able to idetify and render the document using document type. use w3 school doc type page to identify the
+document type to use. 
+
+HTML5 use <!DOCTYPE html>
+
+Validation : validator.w3.org/check, using the link we can check whether the html document is valid or well formed. it helps better
+search engine results.
+
+General HTML Structure:
+
+<tag-name [attr-1=value1][attr-2=value2]> content </tag-name>
+
+<tag-name [attr-1=value1][attr-2=value2]/>
+
+each tag name is keyword and have specific value, attribute in square bracket is optional
+
+Head Elements:
+
+Complete document should be between html tag. Html tag will contain two parts head and body section
+
+Head section is mainly for browser, for vital information and for search engine
+
+Body section will contain actual content.
+
+Title is used to identify each page/document uniquely
+
+Metadata  information used by search engine. metadata contains author details(who created the page), keywords about the page, description about page
+
+Script - To do programming within html, inline script
+
+Style - Add style to html document, inline style
+
+Link - Link to external script and style
+
+Base - Base address for all relative path
+
+HTML Body:
+
+Html body will contain the follwing objects
+
+Headings, Text, Lists, Links, Tables, Images/Objects
+
+Using ID and Class Name:
+
+Each markup in html is tag, tag can have attributes which are optional, which can be
+
+ID - one can have ID for each tag, which is similar to variable in programming language, ID can be use for reference in both scriptin and styling
+Class- Many tags can be use same class, mainly used for styling.
+
+

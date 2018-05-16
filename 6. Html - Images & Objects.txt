@@ -1,0 +1,29 @@
+#############################
+HTML Images and Objects
+#############################
+
+Images & Objects:
+
+Images - Pictures can be included in html document
+Objects - Include interactive material like plug-in(flash/silverlight)
+	  applets, videos etc.
+
+<img src="" alt="" width=""/>
+
+src - is the source for the image
+alt - specify alternate text, if browser can't render image text will be displayed
+      alt text will be used by search engine 
+width - scale image by specifying width, where image will scale for both height and width
+        if both height and width are specified be careful with dimensions otherwise image can become disproportinate
+
+Use images sparingly otherwise page will take longer time to load.
+
+Objects:
+
+One can create objects such as flash image and include in document
+
+<object height="" weight="" data=""></object>
+
+you can also specify parameters for objects such as quality etc, In case if the video requires certain install you can specify
+fallback text with link to installers.
+

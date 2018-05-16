@@ -1,0 +1,15 @@
+#############################################
+HTML List
+#############################################
+
+Unordered lists - used to display list of items, also known as bullet list
+nesting can be done with list item
+
+Ordered lists - Numeric or Alpha labelled list, lists using numbers
+
+Definiton lists - used to display term and definition 
+
+List Rendering: 
+
+for unordered list you can change the display pattern type to square and list type=cirle,square,disc
+ordered list you can change the display pattern type to numbers and alphabets type=a,i,1

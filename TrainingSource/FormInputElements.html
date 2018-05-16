@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>HTML Input Elements</title>
+		<meta name="Author" content="Heptasoft"/>
+		<meta name="Keywords" content="HTML, Input"/>
+		<meta name="Description" content="HTML Input Elements Demo"/>
+	</head>
+	<body>
+		<form method="post">
+			<label for="username">Username:</label>
+			<input id="username" name="username" type="text" maxlength="10"/><br/>
+			Age:<input type="text" readonly disabled value="25"/><br/>
+			Password:<input type="password"  name="password"/><br/>
+			Remarks:<textarea name="remarks" rows="10" cols="40"></textarea><br/>
+			<input type="Submit"><input type="Reset"><input type="button" value="Help"><button type="Submit">Query</button>
+			<hr/>
+		    <input id="sexmale" name="sex" value="male" type="radio"/><label for="sexmale">male</label> 
+			<input id="sexfemale" name="sex" value="female" type="radio"/><label for="sexfemale">female</label>
+			<hr/>
+			Choose your car:
+			<select>
+				<option value="BMW">BMW</option>
+				<option value="Benz">Benz</option>
+				<option value="Ford">Ford</option>
+				<option value="Opel">Opel</option>
+			</select>
+			<hr/>
+			Choose your car:
+			<select multiple>
+				<option value="BMW">BMW</option>
+				<option value="Benz">Benz</option>
+				<option value="Ford">Ford</option>
+				<option value="Opel">Opel</option>
+			</select>
+			<div>
+			which fruit do you like?
+			<input type="checkbox" name="fruit" value="Apples">Apples
+			<input type="checkbox" name="fruit" value="Grapes">Grapes
+			<input type="checkbox" name="fruit" value="Oranges">Oranges
+			<div/>
+			<div>
+			which fruit do you like?
+			<input type="radio" name="fruit" value="Apples">Apples
+			<input type="radio" name="fruit" value="Grapes">Grapes
+			<input type="radio" name="fruit" value="Oranges">Oranges
+			<div/>
+		</form>
+	</body>
+</html>

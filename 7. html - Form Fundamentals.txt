@@ -1,0 +1,13 @@
+#############################################
+HTML Form fundamentals
+#############################################
+
+Forms are used for user interaction, user inputs are captured via forms and sent to the server. 
+Forms allow submitting of data. markups are available to create input fields to capture user data.
+Data entered in input fields are sent as name value pairs to the server.
+
+Action - The URI to which data is sent, if you want to redirect the data input to different page then use action with a uri
+Method - get/post
+         Get method is used to query data and parameters are passed in query string, used when you want to retreive 
+         data from server
+         Post method is used when you want to update data on the server, more secure way to send data.
