@@ -1,0 +1,18 @@
+#############################################
+HTML Organizing Forms
+#############################################
+
+
+FieldSets:
+Fieldsets are used for logical grouping of form elements, legends is used to add caption, label the group
+
+<fieldset><legend>Login</legend></fieldset>
+
+Tabindex:
+
+Tabindex is used to set tabbing through input fields
+default is document order
+
+Access keys:
+
+Access keys can be set with combination of alt (alt+s) can be set as shortcuts to perform events.

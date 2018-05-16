@@ -1,0 +1,22 @@
+#############################################
+HTML Scripting Forms
+#############################################
+
+Scripting forms:
+
+Javascript can be used to control form actions, example if you want to reset a form using button etc,
+
+Handling Multiple Forms:
+
+If there are multiple forms and if needed to identify which form has triggered postback, Add name value attr to the submit 
+button type 
+
+<input type="submit" name="" value="">
+
+Idea is that to identify which button is clicked by name of the button
+
+Uploading file:
+
+To upload file use input type as file
+
+

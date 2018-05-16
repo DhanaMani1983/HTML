@@ -1,0 +1,31 @@
+#############################################
+HTML Hosting
+#############################################
+
+Introduction:
+
+The main purpose of creating HTML document is to share with other users
+If the document can be hosted to web server others will be able to view the document
+Web server should be public facing and connected to the internet
+HTML document must have domain name for users to access
+To upload files or document one must need a FTP client, Web hosting sites will provide FTP credentials to upload files
+Once the file are uploaded we can verify and access the files
+
+Web Server:
+
+IIS -Windows, Apache server Linux
+
+Domain Name:
+
+GoDaddy is domain name provider
+
+FTP Client:
+
+FileZila, SmartFTPClient
+
+Startup document:
+
+Index.html, Default.html will be looked if you enter domain name so create index.html with links for navigation
+
+
+
