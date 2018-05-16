@@ -1,0 +1,26 @@
+#############################################
+HTML Links
+#############################################
+
+HyperLink: 
+a tag - used to link other documents. there are two types 
+	1 to redirect to pages 
+	2 redirect to target within same page or different page, 
+
+anchor with href link are sources, which redirect to a page
+named anchors used to navigate to section in a page
+
+Links can be absolute(full path to page) or relative(not full path to page)
+
+Links can be on Image, text
+
+Base element in head impacts relative links
+
+Target:
+
+Lorem Ipsum is a content filler
+
+<a href="#value"></a>
+<a href="link#value"</a>
+
+
